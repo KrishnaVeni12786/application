@@ -14,7 +14,7 @@ public class Candidate {
 				Scanner sc=new Scanner(System.in);
 				
 				do {
-					System.out.println("*********************Admission System*****************");
+					System.out.println("*********************University Admission System*****************");
 					System.out.println("1. Enter Details");
 					System.out.println("2. View Details based on Applicant Id");
 					System.out.println("3. Exit");
@@ -24,7 +24,7 @@ public class Candidate {
 					switch(choice){
 					case 1:
 						
-						System.out.println("Enter Application Id");
+						System.out.println("Enter App Id");
 						int applyId=sc.nextInt();
 						
 						sc.nextLine();
